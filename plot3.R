@@ -14,6 +14,6 @@ par(mfrow = c(1,1), new = TRUE)
 plot(finaldf$Sub_metering_2,type = "l", xlim = c(0,3000),ylim = c(0,30),col = "red", ylab = "Energy sub metering")
 par(mfrow = c(1,1), new = TRUE)
 plot(finaldf$Sub_metering_1,type = "l", xlim = c(0,3000),ylim = c(0,30) ,ylab = "Energy sub metering")
-legend("topright",pch = "-" ,col = c("black","red","blue"),legend = c("sub_metering_1","sub_metering_2","sub_metering_3"))
+legend("topright",pch = "-" ,col = c("black","red","blue"),legend = c("sub_metering_1","sub_metering_2","sub_metering_3"), cex = 0.5)
 axis(side = 1 , at = c(0,1500,3000), labels = c("Thu","Fri","Sat"))
 
